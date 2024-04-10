@@ -1,0 +1,30 @@
+USE task_managment_dump;
+
+insert into roles (role_name) values ("Admin");
+insert into roles (role_name) values ("Manager");
+insert into roles (role_name) values ("Employee");
+
+
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"vishvas","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"xyz","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"xyz","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"vishvas","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"vishvas","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"vishvas","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"vishvas","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"vishvas","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"vishvas","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (2,"vishvas","panshiniya","vishvas@gmail.com","1234567890","2001-01-01","","");
+
+
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"krushi","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"xyz","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"xyz","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"krushi","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"krushi","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"krushi","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"krushi","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"krushi","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"krushi","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+insert into users (role_id, first_name, last_name, email,contact,date_of_birth,employee_role,activation_code) values (3,"krushi","patel","krushi@gmail.com","0147852963","2002-01-01","","");
+
