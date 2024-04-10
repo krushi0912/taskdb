@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  position: relative;
+}
+.container{
+  background-color: #DDD0C8;
+  margin: 0 auto;
+  width: 1170px;
+  /* border: 2px solid black; */
+}
+.admin{
+  display: flex;
+}
+
+.admin .sidebar{
+  border-top-right-radius: 30px;
+  background-color: #323232;
+  width: 20%;
+  color: white;
+  height: 99vh;
+}
+.admin .sidebar .logo img{
+  width: 70px;
+  padding: 20px 40px;
+}
+
+.list{
+  display: flex;
+  padding: 20px 40px;
+}
+.list i{
+  font-size: 20px;
+  padding-right: 15px;
+}
+.list li{
+  list-style: none;
+  cursor: pointer;
+}
+.rightbar{
+  width: 80%;
+  position: relative;
+}
+.rightbar .profilename{
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+.rightbar .profilename .bell{
+ font-size: 25px;
+ margin: 24px 15px;
+ 
+}
+.rightbar .profilename p{
+  margin-top: 27px;
+  padding-right: 20px;
+  color: #323232;
+}
+.rightbar .profile{
+  margin: 15px 10px;
+  background-color: #323232;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
