@@ -1,0 +1,53 @@
+//teamdata.js
+exports.teamdetails = async (request, response) => {
+    try {
+        let teamData = await db.executeQuery(`select * from teams`);
+        return response.json({ result: teamData });
+    } catch (error) {
+        logger.error("Team details not found it!")
+    }
+}
+
+//router
+router.route('/teamapi').get(teamdetails);
+
+//teamdata.js
+const getTeamData = async () => {
+  try {
+    let data = await (await fetch(`/admin/teamapi`)).json();
+    let table = document.getElementById("team-table")
+    let dataadd = `<thead>
+                <th>TeamId</th>
+                <th>TeamName</th>
+                <th>View Details</th>
+                <th>Edit Team</th>
+                <th>Delete Team</th>
+                </thead>`
+    if (data.result.length != 0) {
+      data.result.forEach(element => {
+        dataadd += (`<tr>
+                <td>${element.team_id}</td>
+                <td>${element.team_name}</td>
+                <td>
+                <input type="button" value="View" class="btn btn-secondary px-3" onclick="alert('view')">
+                </td>
+                <td><input type="button" value="Edit" class="btn btn-secondary px-3" onclick="alert('Edit')"></td>
+                <td>
+                <input type="button" value="Delete" class="btn btn-secondary px-3" onclick="alert('Delete')">
+                </td>`)
+      });
+      table.innerHTML = dataadd;
+    }
+
+  } catch (error) {
+    // logger.error(error)
+    console.log(error);
+  }
+}
+
+//addteam.js
+<div class="my-2">
+              <table class="table mx-2 text-center" id="team-table">
+
+              </table>
+            </div>
