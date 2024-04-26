@@ -1,0 +1,138 @@
+:root {
+  --lightblue: #E5EDF1;
+  --sidebar: #0A1828;
+  --hover: rgb(234, 234, 234)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+.container-div {
+  background-color: var(--lightblue);
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-right: 20px;
+  min-height: 100vh;
+}
+
+.admin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin .sidebar {
+  border-top-right-radius: 30px;
+  background-color: var(--sidebar);
+  width: 20%;
+  margin-left: -10px;
+  color: white;
+  height: 100vh;
+  margin-left: -10px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 2;
+}
+.bodypage{
+  margin-top: 90px;
+}
+.admin .sidebar .task-logo img {
+  width: 70px;
+  height: 70px;
+  margin: 30px 0 10px 90px;
+}
+
+.list i {
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.list li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.rightbar {
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 20%;
+}
+
+.rightbar .profilename .bell {
+  font-size: 25px;
+  margin: 24px 15px;
+  color: var(--sidebar);
+}
+
+.rightbar .profilename p {
+  margin-top: 27px;
+  padding-right: 20px;
+  color: var(--sidebar);
+}
+
+.rightbar .profile {
+  background-color: #0A1828;
+  cursor: pointer;
+}
+
+.rightbar .profile i {
+  margin: 15px 10px;
+  background-color: var(--sidebar);
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.allform {
+  background-color: rgba(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: auto;
+}
+
+ul div:hover {
+  background-color: cadetblue;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.pagenation-data {
+  margin: 20px;
+  text-align: right;
+}
+
+.pagenation-data input {
+  margin: 5px;
+  padding: 5px;
+  width: 100px;
+  background-color: var(--sidebar);
+}
+
+.pagenation-data span {
+  font-size: large;
+}
+
+.card {
+  width: calc(80%/3);
+  box-shadow: 3px 3px grey;
+}
+
+.card:hover {
+  background-color: var(--hover);
+}
+
+#recentActivity {
+  background-color: white;
+  border-radius: 10px;
+  height: 200px;
+  overflow: scroll;
+  box-shadow: 3px 3px grey;
+}
